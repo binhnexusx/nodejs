@@ -1,0 +1,26 @@
+{
+  "name": "fullstackbacken",
+  "version": "1.0.0",
+  "description": "Binhdev full stack backend 0",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhnexusx/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "binhdev9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhnexusx/nodejs/issues"
+  },
+  "homepage": "https://github.com/binhnexusx/nodejs#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
