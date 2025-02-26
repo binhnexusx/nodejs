@@ -9,5 +9,9 @@ router.get('/hoithangbinhdi', (req, res) => {
     res.render('sample');
 });
 
+router.get('/signin', (req, res) => {
+    res.render('sign_in');
+});
+
  
 module.exports = router;

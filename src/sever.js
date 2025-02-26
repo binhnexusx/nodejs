@@ -12,7 +12,7 @@ console.log(">>>> check env:", process.env);
 conFigViewEngine(app);
 
 //  khai bao route
-app.use('/test',webRoutes);
+app.use(webRoutes);
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
