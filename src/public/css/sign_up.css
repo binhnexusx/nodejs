@@ -1,0 +1,116 @@
+.container {
+    background: url('/images/background.png');
+    background-color: #f75d5d;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1440px;
+    min-height: 1024px;
+}
+
+.form-box {
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 197px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-left {
+    margin-top: 105px;
+}
+
+.form-right {
+    margin-top: 10px;
+    padding-right: 47px;
+}
+
+.form-right .input-group {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    gap: 22px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    min-height: 60px;
+    min-width: 559px;
+    border-radius: 12px;
+}
+
+.input-group input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.input-group .input-icon {
+    padding-left: 18px;
+}
+
+.sign-up-title {
+    color: #212427;
+    font-size: 36px;
+}
+
+.input-group::placeholder {
+    font-size: 16px;
+    color: #999999;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.checkbox-group #agree {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-group lable {
+    font-size: 16px;
+    color: #212427;
+}
+
+.register-btn {
+    width: 129px;
+    height: 60px;
+    padding: 10px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.register-btn:hover {
+    background-color: #ff8787;
+}
+
+a {
+    color: #008BD9;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+form-left img {
+    max-width: 433px;
+    min-width: 652px;
+}
