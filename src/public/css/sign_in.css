@@ -1,40 +1,46 @@
 /* Nền đỏ có họa tiết */
 .background {
-    background: url('/images/background.png'); /* Họa tiết nền */
-    background-color: #f75d5d; /* Màu nền chính */
+    background: url('/images/background.png');
+    background-color: #f75d5d;
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 1440px;
+    min-height: 1024px;
 }
 
-/* Container trắng chứa form + ảnh */
+
 .auth-container {
     display: flex;
     background: white;
-    padding: 40px;
+    padding-top: 150px;
+    padding-left: 50px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-    width: 100%;
+    gap: 25px';
+
 }
 
-/* Bố cục của form */
+.sign-in-title {
+    font-size: 36px;
+    color: #212427;
+    font-weight: bold;
+}
+
 .auth-form {
     flex: 1;
     padding-right: 20px;
 }
 
-/* Tiêu đề */
 .sign-in {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* Ô nhập */
 .input-group {
     display: flex;
     align-items: center;
@@ -42,11 +48,22 @@
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
+    min-height: 60px;
+    min-width: 559px;
+    border-radius: 12px;
+}
+
+.input-field::placeholder {
+    color: #999999;
+    font-size: 16px;
 }
 
 .input-group img {
-    width: 20px;
-    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 22px;
+    margin-top: -3px;
+    margin-left: 18px;
 }
 
 .input-group input {
@@ -56,20 +73,23 @@
     width: 100%;
 }
 
-/* Remember me */
 .remember-me {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.remember-me input {
-    margin-right: 5px;
+label {
+    font-size: 16px;
 }
 
-/* Nút login */
+.remember-me input {
+    margin-right: 26px;
+}
+
 .btn {
-    width: 100%;
+    width: 129px;
+    height: 60px;
     padding: 10px;
     background: #ff6b6b;
     color: white;
@@ -83,7 +103,6 @@
     background: #ff5252;
 }
 
-/* Các lựa chọn đăng nhập */
 .login-options {
     text-align: center;
     margin: 15px 0;
@@ -91,32 +110,52 @@
 
 .social-login {
     display: flex;
-    justify-content: center;
+    margin-top: 64px;
     gap: 10px;
 }
 
-.social-login img {
-    width: 32px;
-    cursor: pointer;
+.social-login p {
+    font-size: 16px;
+    margin-right: 20px;
+    color: #212427;
 }
 
-/* Đăng ký */
-.signup-link {
-    text-align: center;
-    margin-top: 10px;
+.social-icons {
+    display: flex;
+    gap: 17px;
+    margin-top: 11px;
 }
 
-.signup-link a {
-    color: #ff6b6b;
+.social-icons .fbicon {
+    width: 28px;
+    height: 28px;
+}
+
+.social-icons .ggicon {
+    width: 27.74px;
+    height: 27.74px;
+}
+
+.social-icons .xicon {
+    width: 28px;
+    height: 27px;
+}
+
+.signup-text {
+    margin-top: 15px;
+}
+
+.signup-text a {
+    color: #008BD9;
     text-decoration: none;
 }
 
-/* Hình minh họa */
 .auth-illustration {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .auth-illustration img {
